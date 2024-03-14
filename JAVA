@@ -1,0 +1,14 @@
+//(PRINTING TABLES...)
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner input=new Scanner(System.in);
+	    System.out.print("Enter what table you whant:");
+	    int m = input.nextInt();
+	    System.out.print("Enter how many times you whant:");
+	    int n = input.nextInt();
+	    for(int i=1;i<=n;i++)
+		System.out.println(m + "*" + i + "=" + m*i);
+	}
+}
